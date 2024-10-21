@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+        integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- CSS Own -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo-mrt.png" type="image/x-icon">
+    <title>Barelang Marine Robot Team - Polibatam</title>
+</head>
+
+
+<body onload="typing()">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navs fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-family: 'Spartan';">
+                <img src="assets/img/logo-mrt.png" class="" width="60" height="60" alt="" style="margin-right: -10px;">
+                <a class="brand-title" style="text-decoration: none;">Barelang MRT 2022</a>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+                style="border-style: none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="struktur.html">Our Team</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Competition
+                        </a>
+                        <ul class="dropdown-menu dropmenu animate-menu slideIn-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="irc22.html">IRC 2022</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Division
+                        </a>
+                        <ul class="dropdown-menu dropmenu animate-menu slideIn-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item my-auto" href="dpa.html">Electrical Division</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item my-auto" href="inti.html">Mechanical Division</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="pkm.html">Artificial Intelligence</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Jumbotron -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/foto2.jpg" class="d-block w-100" alt="..." style="filter:brightness(25%)">
+                <div class="carousel-caption" style="transform: translateY(-600%);">
+                    <div class="caption">
+                        <img src="assets/img/logo-mrt.png" class="logo-carousel"
+                            style="margin-bottom: 20px;width: 25%;">
+                        <div class="text">
+                            <p style="font-size: 50px;" class="hmti-text">ROBOBOAT
+                                2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Jumbotron -->
+    <!-- Tentang HMTI -->
+
+    <div class="about-us" id="tentang-kami">
+        <div class="container p-5">
+            <h1 class="mb-1" style="color: #2760AD; font-family: 'Spartan'; font-weight: bolder; text-align: center;"
+                data-aos="fade-up">
+                About International RoboBoat Competition</h1>
+            <div class="row mt-5">
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="about-logo">
+                        <img src="assets/img/Picture1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-right">
+                    <p style="text-align: justify; " class="my-auto">
+                        RoboBoat or International RoboBoat Competition (IRC) is a competition that invites participants
+                        to tackle simplified versions of challenges facing the modern maritime industry.
+                    </p>
+                    <br>
+                    <p style="text-align: justify;">
+                        This year Barelang MRT has started participating in this competition.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Tentang HMTI -->
+    <!-- Tentang HMTI -->
+
+    <div class="about-us bg-secondary" id="tentang-kami">
+        <div class="container p-5">
+            <div class="row text-white">
+                <div class="col-md-6 my-auto" data-aos="fade-right">
+                    <h1 class="px-5"><b>MRT PURVI</b></h1>
+                    <p style="text-align: justify;" class="px-5">
+                        MRT PURVI
+                        ASV
+                        Is Created by Barelang MRT (Marine Robotics Team)
+                        Politeknik Negeri Batam located in
+                        Batam , Indonesia
+
+                    </p>
+                    <br>
+                    <p style="text-align: justify;" class="px-5">
+                        This year Barelang MRT has started participating in this competition.
+                    </p>
+                    <a href="assets/RoboBoat 2022_Politeknik Negeri Batam_Barelang MRT_TECHNICAL DESIGN REPORT (TDR) MRT Purvy Goes To ROBOBOAT 2022_FINAL_X.pdf"
+                        class="btn py-2 px-4 ms-5" style="background-color: rgb(46, 46, 46); color:white">Technical
+                        Design
+                        Report</a>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="about-logo">
+                        <center><img src="assets/img/MRT - PURVI.gif" style="width: 100%; border-radius: 12px;" alt="">
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 mx-auto" data-aos="fade-down" data-aos-duration="1500">
+
+                <h3 class="text-white mb-4 text-center">Competition Strategy Video</h3>
+                <center>
+                    <div class="col-md-5">
+                        <iframe width="500" height=" 350" src="https://www.youtube.com/embed/Gow5RcXJ_gQ"
+                            title="YouTube video player" frameborder="1"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                            style="border:5px solid rgb(212, 212, 212); border-radius: 15px; margin-left: -40px;"></iframe>
+                    </div>
+                </center>
+            </div>
+            <!-- <hr class="mt-4">
+            <figure class="mt-3">
+                <h2 class="text-center text-white mt-2"><b>HULL DESIGN PROCESS</b></figcaption>
+                    <img src="assets/img/hull.JPG" class="w-100 mt-4" style="border-radius: 12px;" alt="">
+            </figure> -->
+
+
+        </div>
+    </div>
+
+    <!-- End Tentang HMTI -->
+
+    <!-- Tentang HMTI -->
+
+    <div class="about-us" id="tentang-kami">
+        <div class="container p-5">
+            <h1 class="mb-1" style="color: #2760AD; font-family: 'Spartan'; font-weight: bolder; text-align: center;"
+                data-aos="fade-up">
+                ASV DIMENSION</h1>
+            <div class="row mt-3">
+                <center>
+                    <div class="col-md-6" data-aos="fade-right">
+                        <p style="text-align: justify; " class="my-auto">
+                            We create catamaran type with length 1 meter, breadth/beam 0,6 meters,depth 0,18
+                            meters,draft water line 0,12 meters. the goals is more stable when floating in water and
+                            have large enough loading space to install supporting components of the ship
+                        </p>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Tentang HMTI -->
+    <!-- Tentang HMTI -->
+
+    <div class="about-us bg-secondary" id="tentang-kami">
+        <div class="container p-5 text-white">
+            <h2 class="mb-1" style=" font-family: 'Spartan'; font-weight: bolder; text-align: center;"
+                data-aos="fade-up">
+                ELECTRICAL & <br> ARTIFICIAL INTELLIGENCE</h2>
+            <div class="row mt-5">
+                <center>
+                    <img src="assets/Flowchart (1).jpg" data-aos="fade-up" data-aos-duration="1500" class="w-75"
+                        style="border-radius: 12px;" alt="">
+                    <!-- <div class="col-md-9" data-aos="fade-right">
+                        <p style="text-align: justify; " class="my-auto">
+                            Electrical division we try to minimize the use of excessive wiring , it take up a lot of
+                            space on the boat.it use Arduino mega as the microcontroller with ultrasonic, sensor
+                            input,lidar,camera and receiver. It are also outputs t200 thruster, dc motor ,stepper motor,
+                            servo motor and several other components. To control the ship moving automatically
+                            <br>
+                            <br>
+                            For Artificial intelligence we use input in the form of camera, lidar and GPS module
+
+                        </p>
+                    </div> -->
+                </center>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Tentang HMTI -->
+
+
+
+    <!-- End Visi Misi -->
+
+    <!-- Video Pengenalan -->
+    <div class="video p-3 mb-4" id="video">
+        <div class="container mt-4">
+            <h1 class="mb-3" style="color: #2760AD; font-family: 'Spartan'; font-weight: bolder; text-align: center;"
+                data-aos="fade-up">
+                Video Demonstration</h1>
+            <div class="row text-center text-secondary">
+                <div class="col-md-12">
+                    <!-- <h3>Video Title</h3> -->
+                    <iframe width="500" height=" 350" src="https://www.youtube.com/embed/d-qfATva30E"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                        style="border:5px solid rgb(212, 212, 212); border-radius: 15px; margin-left: -40px;"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Video Pengenalan -->
+
+    <!-- Tentang HMTI -->
+
+    <div class="about-us bg-secondary" id="tentang-kami">
+        <div class="container p-5 py-5">
+            <h1 class="text-white text-center" data-aos="fade-up" data-aos-duration="1500"><b>PROGRESS DOCUMENTATION</b>
+            </h1>
+            <div class="row text-white mt-5">
+                <div class="col-md-6 my-auto" data-aos="fade-right">
+                    <h1 class="px-5"><b>Planning Strategy</b></h1>
+                    <p style="text-align: justify;" class="px-5">
+                        This competition , Barelang MRT ( Marine Robotics Team ) road to roboboat 2022 , we divide two
+                        division it consists of technical team and non-technical team. This team we will work hard to
+                        fulfill all the requirements that have been given. One team unites ideas and thoughts to become
+                        a tough team. This competition is the first time we have tried to participate in roboboat 2022,
+                        we think this is a bit difficult for a new team but we will try and try our best to make
+                        achievements in competition roboboat 2022, especially in the international arena.
+
+                    </p>
+                </div>
+                <div class="col-md-6 my-auto" data-aos="fade-left">
+                    <div class="about-logo">
+                        <center><img src="assets/img/planning.png" style="width: 100%; border-radius: 12px;" alt="">
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-white mt-5">
+                <div class="col-md-6 my-auto" data-aos="fade-left">
+                    <div class="about-logo">
+                        <center><img src="assets/img/hull.JPG" style="width: 100%; border-radius: 12px;" alt="">
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto" data-aos="fade-right">
+                    <h1 class="px-5"><b>Hull Design & Fabrication</b></h1>
+                    <div style="text-align: justify;" class="px-5">
+                        <p>
+                            We have been negotiating for a long time, we chose the catamaran type using maxsurf
+                            software,
+                            because this ship is more stable when floating in water and has large enough loading space
+                            to
+                            install supporting components.
+                        </p>
+                        <br>
+                        <p style="margin-top: -10px;">We use laser cutting to cut the station. going to next step we
+                            create a ship frame bg
+                            arranging
+                            frames in order, so attach stiffners as a booster. Doing skinned,putty fiber after the ship
+                            frame is ready the hulled ship`s frame using balsa wood with thickness balsa wood 1 mm. then
+                            if
+                            there will be small crack to cover it we are going to use fiber with resin mixture,then wait
+                            1
+                            or 2 days until the fiber is dry. then the fiber is lifted from the mold, the last our ship
+                            Already to sea trial</p>
+
+
+                    </div>
+                </div>
+
+                <div class="row text-white mt-5">
+                    <div class="col-md-6 my-auto" data-aos="fade-right">
+                        <h1 class="px-5"><b>Artificial Intelligence Design</b></h1>
+                        <div style="text-align: justify;" class="px-5">
+                            <p>Electrical division we try to minimize the use of excessive wiring , it take up a lot of
+                                space on the boat.it use Arduino mega as the microcontroller with ultrasonic, sensor
+                                input,lidar,camera and receiver. It are also outputs t200 thruster, dc motor ,stepper
+                                motor,
+                                servo motor and several other components. To control the ship moving automatically.</p>
+                            <p>For Artificial intelligence we use input in the form of camera, lidar and GPS module.</p>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-auto" data-aos="fade-left">
+                        <div class="about-logo">
+                            <center><img src="assets/img/artificial.JPG" style="width: 100%; border-radius: 12px;"
+                                    alt="">
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-white mt-5">
+                <div class="col-md-6 my-auto" data-aos="fade-left">
+                    <div class="about-logo">
+                        <center><img src="assets/img/scheduled.jpeg" style="width: 100%; border-radius: 12px;" alt="">
+                        </center>
+                    </div>
+                </div>
+                <div class="col-md-6 my-auto" data-aos="fade-right">
+                    <h1 class="px-5"><b>Scheduled Meeting</b></h1>
+                    <div style="text-align: justify;" class="px-5">
+                        <p>
+                            Here we will divide the schedule and progress against 3 divisions, namely mechanical,
+                            electrical, and artificial intelligence.
+                            In the mechanical division make a design in advance that will be fabricated after it.
+                            In electrical divison they have arranged what components will be needed against the ship and
+                            AI work together to determine the program so that the ship will run stably.
+                        </p>
+                        <br>
+                        <p style="margin-top: -10px;">We will hold a weekly meeting to put our thoughts together if we
+                            have any problems on our ship.
+                            Against progress we use trello so that the progress is more conducive to regulating it</p>
+
+
+                    </div>
+                </div>
+
+                <div class="row text-white mt-5">
+                    <div class="col-md-6 my-auto" data-aos="fade-right">
+                        <h1 class="px-5"><b>Video Production</b></h1>
+                        <div style="text-align: justify;" class="px-5">
+                            <p>The ship, electrical components and programming have started in the raft where we compile
+                                the video one by one. Which will be taken by a non-technical team. Over time the video
+                                can be edited and we will make the video as interesting as possible. Here it is very
+                                important that there is no miscommunication with the team that results in small problems
+                                will be a big problem. So the key is building together to be a winner.</p>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-auto" data-aos="fade-left">
+                        <div class="about-logo">
+                            <center><img src="assets/img/video.jpeg" style="width: 100%; border-radius: 12px;" alt="">
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- End Tentang HMTI -->
+
+    <!-- ads -->
+    <div class="ads-container pt-4 shadow-lg mt-5">
+        <div class="container">
+            <marquee behavior="" direction="">
+                <p class="text-light glitch"> Email : barelangmrt@gmail.com
+                </p>
+            </marquee>
+        </div>
+    </div>
+    <!-- end ads -->
+
+    <!-- footer -->
+    <div class=" container">
+        <div class="row p-4 footer">
+            <div class="col-md-6">
+                <h4><b>Address</b></h4>
+                <ul style="list-style-type: none; margin-left: -32px; text-align: justify;">
+                    <li style="font-size: 14px" class="w-75">Politeknik Negeri Batam. Jl. Ahmad Yani Batam Kota. Kota
+                        Batam.
+                        Kepulauan Riau. Indonesia</li>
+                    <li class="mt-3">Email : barelangmrt@gmail.com</li>
+                </ul>
+                <hr>
+                <p> Made with <i class="fas fa-heart text-danger"></i> by <br><b>BARELANG MRT
+                        2022</b></p>
+            </div>
+            <!-- <div class="col-md-4">
+                <h4><b>Link Terkait</b></h4>
+                <ul style="list-style-type: none; margin-left: -32px;">
+                    <li class="mb-2"><a href="https://polibatam.ac.id">Politeknik Negeri Batam</a></li>
+                    <li class="mb-2"><a href="https://if.polibatam.ac.id">Informasi Jurusan Informatika Polibatam</a>
+                    </li>
+                    <li class="mb-2"><a href="https://learning-if.polibatam.ac.id/">E-Learning Informatika Polibatam</a>
+                    </li>
+                    <li><a href="http://registrasi.polibatam.ac.id/">Pendaftaran Polibatam</a></li>
+                </ul>
+            </div> -->
+            <div class="col-md-6">
+                <h4 class="mb-3"><b>Find Us On !</b></h4>
+                <div class="brand-item text-primary mb-3">
+                    <a href="https://www.facebook.com/profile.php?id=100079520006653" class="me-4"><i
+                            class="fab fa-facebook fa-2x text-primary"></i></a>
+                    <a href="https://www.instagram.com/roboboat_polibatam/" class="me-4"><i
+                            class="fab fa-instagram fa-2x text-warning"></i></a>
+                    <a href="https://www.youtube.com/channel/UCgMvjzmQLjHan9B7_y5gfLA" class="me-4"><i
+                            class="fab fa-youtube fa-2x text-danger"></i></a>
+                    <a href="https://twitter.com/barelangmrt" class=""><i class="fab fa-twitter fa-2x"
+                            style="color: cyan;"></i></a>
+                </div>
+                <iframe width="300" height="150" src="https://www.youtube.com/embed/pdEzR1yoVek"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+
+
+
+
+
+
+    <!-- Button To Top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i> Go Up !</button>
+    <!-- End Button -->
+    <script>
+        AOS.init();
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</body>
+
+</html>
